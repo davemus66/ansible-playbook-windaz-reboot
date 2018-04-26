@@ -1,0 +1,5 @@
+---
+
+- src: git@github.com:davemus66/ansible-playbook-dftest.git
+  scm: git
+  version: master
