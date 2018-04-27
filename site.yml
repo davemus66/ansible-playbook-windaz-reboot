@@ -3,7 +3,7 @@
   become: yes
   become_user: davemus
   roles:
-     - ansible-role-dftest.yml
+     - ansible-role-dftest
 
 
 #  tasks:
