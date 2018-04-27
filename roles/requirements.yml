@@ -1,3 +1,3 @@
 ---
 
-- include: ansible-role-dftest.yml
+- include: ansible-role-dftest
