@@ -1,5 +1,5 @@
 ---
 
-- src: git@github.com:davemus66/ansible-playbook-dftest.git
+- src: git@github.com:davemus66/ansible-role-dftest.git
   scm: git
   version: master
