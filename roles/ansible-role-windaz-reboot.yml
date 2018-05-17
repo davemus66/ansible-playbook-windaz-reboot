@@ -1,0 +1,5 @@
+---
+
+- src: https://github.com/davemus66/ansible-role-windaz-reboot.git
+  scm: git
+  version: master

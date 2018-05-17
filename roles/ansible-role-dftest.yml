@@ -1,5 +1,0 @@
----
-
-- src: https://github.com/davemus66/ansible-role-dftest.git
-  scm: git
-  version: master
