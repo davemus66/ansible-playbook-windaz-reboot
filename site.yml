@@ -1,9 +1,9 @@
 ---
-- hosts: linux
-  become: yes
-  become_user: root
-  roles:
-     - ansible-role-dftest
+#- hosts: linux
+#  become: yes
+#  become_user: root
+#  roles:
+#     - ansible-role-dftest
 
 
 #  tasks:
@@ -11,10 +11,10 @@
 #      ping:
 
 
-#- hosts: windows
-#  remote_user: clacko
-#  tasks:
-#    - name: test connection
-#      win_ping:
-#
+- hosts: windows
+  remote_user: davemus
+  roles:
+    -  ansible-role-windaz-reboot
+      
+
 
