@@ -4,6 +4,6 @@
   remote_user: davemus
   tasks:
     - name: reboot windows server
-     win_ping:
+      win_reboot:
     - name: reboot timeout
-         reboot_timeout: 60
+      reboot_timeout: 60
