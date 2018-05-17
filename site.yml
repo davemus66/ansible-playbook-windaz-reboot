@@ -14,7 +14,7 @@
 - hosts: windows
   remote_user: davemus
   roles:
-    -  ansible-role-windaz-reboot
+    - ansible-role-windaz-reboot
       
 
 
