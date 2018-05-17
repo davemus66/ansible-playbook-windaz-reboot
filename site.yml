@@ -1,20 +1,9 @@
 ---
-#- hosts: linux
-#  become: yes
-#  become_user: root
-#  roles:
-#     - ansible-role-dftest
-
-
-#  tasks:
-#    - name: test connection
-#      ping:
-
 
 - hosts: windows
   remote_user: davemus
-  roles:
-    - ansible-role-windaz-reboot
-      
-
-
+  tasks:
+    - name: reboot windows server
+     win_ping:
+    - name: reboot timeout
+         reboot_timeout: 60
