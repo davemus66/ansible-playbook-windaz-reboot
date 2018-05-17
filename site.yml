@@ -1,9 +1,5 @@
 ---
 
 - hosts: windows
-  remote_user: davemus
-  tasks:
-    - name: reboot windows server
-      win_reboot:
-    - name: reboot timeout
-      reboot_timeout: 60
+  roles:
+    - ansible-role-windaz-reboot
